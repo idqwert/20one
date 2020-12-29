@@ -1,0 +1,156 @@
+.list {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  background-color: #e9ebec;
+  overflow: hidden;
+}
+.list .shopitem {
+  width: 95%;
+  height: 260px;
+  background-color: white;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+.list .shopitem .top {
+  width: 95%;
+  height: 29px;
+  line-height: 29px;
+  font-size: 16px;
+  border-bottom: 1px solid #d9d9d9;
+  color: black;
+  font-size: 15px;
+  margin: 5px auto 0 auto;
+  background-color: white !important;
+}
+.list .shopitem .top .lsname {
+  width: 50%;
+  height: 29px;
+  float: left;
+  color: black;
+}
+.list .shopitem .top .time {
+  width: 50%;
+  height: 29px;
+  font-size: 12px;
+  float: right;
+  text-align: right;
+  color: #a2a2a2;
+}
+.list .shopitem .mid {
+  width: 95%;
+  height: 140px;
+  margin: 0 auto;
+}
+.list .shopitem .mid .pic {
+  width: 120px;
+  height: 120px;
+  margin: 10px 10px 10px 0;
+  background-color: pink;
+  float: left;
+}
+.list .shopitem .mid .pic img {
+  width: 100%;
+  height: 100%;
+}
+.list .shopitem .mid .ltitle {
+  width: 205px;
+  height: 40px;
+  font-size: 16px;
+  float: left;
+  margin: 10px auto 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black !important;
+}
+.list .shopitem .mid .con {
+  padding-top: 5px;
+  width: 205px;
+  height: 50px;
+  font-size: 13px;
+  float: left;
+  margin: 0 auto;
+  color: #a2a2a2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list .shopitem .mid .price {
+  width: 205px;
+  height: 30px;
+  float: left;
+  margin: 0 auto 10px auto;
+  text-align: right;
+  line-height: 30px;
+}
+.list .shopitem .mid .price .p {
+  color: #ff5000;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.list .shopitem .mid .price .n {
+  color: #999999;
+}
+.list .shopitem .ad {
+  width: 95%;
+  height: 49px;
+  margin: 0 auto;
+}
+.list .shopitem .ad .ad-top {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+}
+.list .shopitem .ad .ad-top .uname {
+  font-size: 14px;
+  color: black;
+}
+.list .shopitem .ad .ad-top .uphone {
+  font-size: 13px;
+  color: grey;
+  margin-left: 20px;
+}
+.list .shopitem .ad .ad-bot {
+  width: 100%;
+  height: 29px;
+  font-size: 13px;
+  color: grey;
+  line-height: 29px;
+}
+.list .shopitem .bot {
+  width: 95%;
+  height: 39px;
+  border-top: 1px solid #d9d9d9;
+  margin: 0 auto;
+}
+.list .shopitem .bot .que {
+  width: 90px;
+  height: 25px;
+  border: 1px solid #ff852a;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 25px;
+  float: right;
+  margin: 7px 10px;
+  color: #ff852a;
+}
+.list .shopitem .bot .check {
+  width: 90px;
+  height: 25px;
+  border: 1px solid #999999;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 25px;
+  margin: 7px 10px;
+  float: right;
+  color: #999999;
+}
+.list .shopitem .bot .ing {
+  width: 90px;
+  height: 25px;
+  text-align: left;
+  line-height: 25px;
+  margin: 7px 10px;
+  float: left;
+  color: #ff5000;
+  font-size: 13px;
+}
